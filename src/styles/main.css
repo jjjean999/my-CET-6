@@ -1,0 +1,41 @@
+#app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 马卡龙色系分组颜色 — 用于词汇页面左边框 */
+.group-color-0  { border-left: 8px solid #A8D8B9; }
+.group-color-1  { border-left: 8px solid #F8B595; }
+.group-color-2  { border-left: 8px solid #C3AED6; }
+.group-color-3  { border-left: 8px solid #F5E6A3; }
+.group-color-4  { border-left: 8px solid #F5B7B1; }
+.group-color-5  { border-left: 8px solid #AED9E0; }
+.group-color-6  { border-left: 8px solid #F0C27F; }
+.group-color-7  { border-left: 8px solid #A8D8B9; }
+.group-color-8  { border-left: 8px solid #F8B595; }
+.group-color-9  { border-left: 8px solid #C3AED6; }
+.group-color-10 { border-left: 8px solid #F5E6A3; }
+.group-color-11 { border-left: 8px solid #F5B7B1; }
+.group-color-12 { border-left: 8px solid #AED9E0; }
+.group-color-13 { border-left: 8px solid #F0C27F; }
+.group-color-14 { border-left: 8px solid #A8D8B9; }
+
+/* 页面过渡动画 */
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.2s ease;
+}
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+/* 通用卡片悬停效果 */
+.card-hover {
+  transition: all 0.3s ease;
+}
+.card-hover:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+}

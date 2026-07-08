@@ -1,0 +1,13 @@
+W: How do you feel about the future of artificial intelligence? Personally, I feel quite optimistic about it. // 女：你对人工智能的未来怎么看？就我个人而言，我还是比较乐观的。
+M: AI? I'm not so optimistic actually. In fact, it's something we should be concerned about. // 男：AI？其实我没那么乐观。事实上，这是我们应当关注的问题。
+W: Well, it will help us humans understand ourselves better. And, when we have a better understanding of ourselves, we can improve the world. // 女：嗯，它将帮助我们人类更好地了解自己。当我们对自己有了更深入的理解之后，我们可以改善这个世界。
+M: Well, one thing is for sure: Technology is evolving faster than our ability to understand it. And in the future, AI will make jobs kind of pointless. // 男：嗯，有一点是肯定的：技术进化的速度超过了我们理解它的能力。而在未来，AI会让工作变得有些毫无意义。
+W: I think artificial intelligence will actually help create new kinds of jobs, which would require less of our time and allow us to be centered on creative tasks. // 女：我认为人工智能实际上会帮助创造新型的工作岗位，这些工作需要我们投入更少的时间，让我们能够专注于创造性任务。
+M: I doubt that very much. Probably the last job that we will保留下来的是编写AI软件的工作。然后最终，AI会自己编写软件。
+W: At that time, we're going to have a lot of jobs which nobody will want to do, so we'll need artificial intelligence for the robots to take care of the old guys, like us. // 女：到那时，会有很多没人愿意做的工作，所以我们需要人工智能让机器人来照顾像我们这样的老家伙。
+M: I don't know. There's a risk that human文明可能会被一种更高级的数字生命所取代。AI将能够在各方面完全模拟一个人。事实上，有些人认为我们现在就处于模拟之中。
+W: That's impossible. Humans can't even make a mosquito. Computers only have chips. People have brains, and that's where the wisdom comes from. // 女：那是不可能的。人类连一只蚊子都造不出来。计算机只有芯片。而人有大脑，智慧正是来源于此。
+M: Once it's fully developed, AI will become tired of trying to communicate with humans, as we would be much slower thinkers in comparison. // 男：一旦它完全发展成熟，AI会厌倦与人类交流，因为相比之下我们的思维速度太慢了。
+W: I'm not so sure. A computer is a computer, and a computer is just a toy. // 女：我不太确定。计算机就是计算机，计算机只不过是个玩具罢了。
+M: Computers can easily communicate incredibly fast, so the computer will just get impatient talking to humans. It will be barely getting any information out. // 男：计算机可以极快地进行通信，所以计算机会对和人类交谈失去耐心。它几乎获取不到任何信息。
+W: Well, I believe there is a benevolent future with AI. I also think you watch too many science fiction films. // 女：嗯，我相信AI会有一个美好的未来。我还觉得你科幻电影看太多了。
