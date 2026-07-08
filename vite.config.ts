@@ -65,4 +65,12 @@ export default defineConfig({
   test: {
     environment: 'jsdom',
   },
+
+  // Fix ERR_REQUIRE_ESM for unconfig / vue-macros compatibility
+  optimizeDeps: {
+    include: ['unconfig', 'unplugin-vue-macros', 'unplugin-combine'],
+  },
+  ssr: {
+    noExternal: ['unconfig', 'unplugin-vue-macros', 'unplugin-combine'],
+  },
 })
