@@ -1,7 +1,8 @@
 <script setup lang="ts">
 // 是否启用 Giscus 评论区。
 // 设为 true 才真正挂载评论脚本；设为 false 仅渲染占位提示，便于先部署验证页面不破框。
-const ENABLE_GISCUS = true
+// 当前临时关闭：repo-id / category-id 仍是 Timmoc 的值，需换成 jjjean999/my-CET-6 在 giscus.app 生成的值后再开。
+const ENABLE_GISCUS = false
 
 function loadGiscus() {
   if (!ENABLE_GISCUS)
