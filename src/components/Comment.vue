@@ -12,7 +12,9 @@ function loadGiscus() {
 
   const script = document.createElement('script')
   script.src = 'https://giscus.app/client.js'
-  script.setAttribute('data-repo', 'Timmoc/my-CET-6')
+  // ⚠️ 注意：data-repo 必须与部署该站点的 GitHub 仓库一致（当前仓库为 jjjean999/my-CET-6）。
+  // 下方的 repo-id / category-id 需到 https://giscus.app 用 jjjean999/my-CET-6 重新生成并替换。
+  script.setAttribute('data-repo', 'jjjean999/my-CET-6')
   script.setAttribute('data-repo-id', 'R_kgDOOsoCxQ')
   script.setAttribute('data-category', 'Announcements')
   script.setAttribute('data-category-id', 'DIC_kwDOOsoCxM4CtoDw')
