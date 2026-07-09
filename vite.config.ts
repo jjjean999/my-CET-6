@@ -22,6 +22,11 @@ export default defineConfig({
   },
   plugins: [
     VueMacros({
+      // 关闭这两个宏：它们用 Babel 解析 .vue 的 script 块，
+      // 无法识别 lang="ts" 下的 import type 语法，导致 build 失败。
+      // propsDestructure 已由 @vitejs/plugin-vue 原生支持，无需 betterDefine。
+      betterDefine: false,
+      jsxDirective: false,
       defineOptions: false,
       defineModels: false,
       plugins: {
