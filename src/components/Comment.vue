@@ -1,8 +1,7 @@
 <script setup lang="ts">
 // 是否启用 Giscus 评论区。
 // 设为 true 才真正挂载评论脚本；设为 false 仅渲染占位提示，便于先部署验证页面不破框。
-// 当前临时关闭：repo-id / category-id 仍是 Timmoc 的值，需换成 jjjean999/my-CET-6 在 giscus.app 生成的值后再开。
-const ENABLE_GISCUS = false
+const ENABLE_GISCUS = true
 
 function loadGiscus() {
   if (!ENABLE_GISCUS)
@@ -13,17 +12,15 @@ function loadGiscus() {
 
   const script = document.createElement('script')
   script.src = 'https://giscus.app/client.js'
-  // ⚠️ 注意：data-repo 必须与部署该站点的 GitHub 仓库一致（当前仓库为 jjjean999/my-CET-6）。
-  // 下方的 repo-id / category-id 需到 https://giscus.app 用 jjjean999/my-CET-6 重新生成并替换。
   script.setAttribute('data-repo', 'jjjean999/my-CET-6')
-  script.setAttribute('data-repo-id', 'R_kgDOOsoCxQ')
+  script.setAttribute('data-repo-id', 'R_kgDOTRHjQg')
   script.setAttribute('data-category', 'Announcements')
-  script.setAttribute('data-category-id', 'DIC_kwDOOsoCxM4CtoDw')
+  script.setAttribute('data-category-id', 'DIC_kwDOTRHjQs4DAzZ6')
   script.setAttribute('data-mapping', 'pathname')
   script.setAttribute('data-strict', '0')
   script.setAttribute('data-reactions-enabled', '1')
   script.setAttribute('data-emit-metadata', '0')
-  script.setAttribute('data-input-position', 'top')
+  script.setAttribute('data-input-position', 'bottom')
   script.setAttribute('data-theme', 'preferred_color_scheme')
   script.setAttribute('data-lang', 'zh-CN')
   script.setAttribute('data-loading', 'lazy')
