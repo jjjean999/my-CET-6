@@ -74,6 +74,11 @@ export default defineConfig({
   // Fix ERR_REQUIRE_ESM for unconfig / vue-macros compatibility
   optimizeDeps: {
     include: ['unconfig', 'unplugin-vue-macros', 'unplugin-combine'],
+    // oxc-resolver（被 @vue-macros/api 间接依赖）的 browser 入口需要 wasm 绑定，
+    // 该绑定不会在浏览器运行时真正执行，标记为 external 避免预构建失败导致 dev server 崩溃。
+    esbuildOptions: {
+      external: ['@oxc-resolver/binding-wasm32-wasi'],
+    },
   },
   ssr: {
     noExternal: ['unconfig', 'unplugin-vue-macros', 'unplugin-combine'],

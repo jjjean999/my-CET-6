@@ -415,5 +415,7 @@ function copyAllError() {
         </div>
       </div>
     </div>
+
+    <Comment />
   </div>
 </template>
