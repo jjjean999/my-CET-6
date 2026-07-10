@@ -1,12 +1,5 @@
 <p><br></p>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="public/salvation_lies_within_CET-6_dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="public/salvation_lies_within_CET-6_light.svg">
-  <img alt="Slogan" src="public/salvation_lies_within_CET-6_light.svg">
-</picture>
-
-<p><br></p>
 <p><br></p>
 <h1 align='center'>
   My <span>CET-6</span>
