@@ -1,15 +1,24 @@
-name: Build and Deploy to GitHub Pages
+name: Deploy to GitHub Pages
 
 on:
   push:
     branches:
       - main
-  pull_request:
-    branches:
-      - main
+  workflow_dispatch:
+
+# 必须授予 Pages 发布所需的权限（使用 GitHub Actions 作为发布来源时）。
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 避免并发部署互相覆盖。
+concurrency:
+  group: pages
+  cancel-in-progress: false
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -27,8 +36,22 @@ jobs:
       - name: Run Build
         run: npm run build
 
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      # 将整个 dist 目录作为制品原子上传，避免只部署了 index.html 而漏掉 assets。
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          branch: gh-pages
-          folder: dist
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
