@@ -1,9 +1,9 @@
 <p><br></p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="public/salvation_lies_within_IELTS_dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="public/salvation_lies_within_IELTS_light.svg">
-  <img alt="Slogan" src="public/salvation_lies_within_IELTS_light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="public/salvation_lies_within_CET-6_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="public/salvation_lies_within_CET-6_light.svg">
+  <img alt="Slogan" src="public/salvation_lies_within_CET-6_light.svg">
 </picture>
 
 <p><br></p>
