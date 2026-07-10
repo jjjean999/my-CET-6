@@ -14,14 +14,18 @@
 
 <h2 align='center'>在线地址</h2>
 <p align='center'>
-  <a href="https://hefengxian.github.io/my-CET-6/">https://hefengxian.github.io/my-CET-6/</a>
+  <a href="https://jjjean999.github.io/my-CET-6/">https://jjjean999.github.io/my-CET-6/</a>
 </p>
 
 ## 概述
 
-英语六级（CET-6）备考资料，包含词汇、语法、听说读写等内容。
+英语六级（CET-6）备考资料，包含词汇、语法、听力、阅读、写作等内容，支持打字练习、练习模式等多种学习方式。
 
 - [x] 词汇练习模式（含打字练习）
+- [x] 语法：新东方英语语法（视频、讲义、思维导图）
+- [x] 听力：基本概念、应试技巧、听力考点词
+- [x] 阅读：考点词同义替换
+- [x] 写作：100 句翻译练习
 
 ## 功能展示
 
@@ -94,7 +98,7 @@
 
 ## 开发
 
-本项目使用 [Vitesse Lite](https://github.com/antfu/vitesse-lite) 作为模板开发。
+本项目基于 [Vitesse Lite](https://github.com/antfu/vitesse-lite) 模板开发。
 
 ```bash
 # 安装依赖
@@ -112,11 +116,11 @@ npm run preview
 
 ## 部署
 
-### GitHub Pages
+### GitHub Pages（自动）
 
-项目已配置 GitHub Actions 自动部署。推送代码到 `main` 分支后，会自动构建并部署到 `gh-pages` 分支。
+项目已配置 GitHub Actions 自动部署。推送代码到 `main` 分支后，Actions 会自动构建并将 `dist` 部署到 GitHub Pages。
 
-在仓库 Settings → Pages 中将 Source 设置为 `Deploy from a branch`，分支选择 `gh-pages`，目录选择 `/ (root)`。
+在仓库 **Settings → Pages → Build and deployment → Source** 中选择 **GitHub Actions** 即可（无需手动维护 `gh-pages` 分支）。
 
 ### 本地部署
 
@@ -125,6 +129,14 @@ npm run build
 ```
 
 将 `dist/` 目录部署到任意静态服务器即可。
+
+## 致谢 / Acknowledgements
+
+本项目的源代码基于 **frank** 的雅思备考知识库项目改写而来，在此特别感谢 frank 的原创工作与开源分享。
+
+> 原项目（雅思备考知识库，frank）：https://github.com/&lt;frank的GitHub用户名&gt;
+
+同时感谢 [@Tommy1109255](https://github.com/Tommy1109255) 贡献的词汇打字练习模式。
 
 ## License
 
