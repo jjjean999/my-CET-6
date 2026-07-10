@@ -134,7 +134,7 @@ npm run build
 
 本项目的源代码基于 **frank** 的雅思备考知识库项目改写而来，在此特别感谢 frank 的原创工作与开源分享。
 
-> 原项目（雅思备考知识库，frank）：https://github.com/&lt;frank的GitHub用户名&gt;
+> 原项目（雅思备考知识库，frank）：https://github.com/hefengxian
 
 同时感谢 [@Tommy1109255](https://github.com/Tommy1109255) 贡献的词汇打字练习模式。
 
