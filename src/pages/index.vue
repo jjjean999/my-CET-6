@@ -64,7 +64,7 @@ const macaronColors: Record<string, string> = {
 
 <template>
   <div class="px-4 pt-6 2xl:px-0">
-    <section class="mb-4 rounded-2xl bg-white p-4 shadow-sm sm:p-6" style="border: 1px solid #e8e0d5;">
+    <section class="mb-4 rounded-2xl border border-[#e8e0d5] bg-white p-4 shadow-sm sm:p-6 dark:border-gray-700 dark:bg-gray-800">
       <div class="mx-auto max-w-screen-xl px-4 py-8 lg:px-6 sm:py-16">
         <h1 style="font-family: Charmonman;" class="mb-8 text-center text-6xl text-gray-800 dark:text-white">
           <span class="font-bold" style="color: #4a8ab5;">CET-6 Center</span>
