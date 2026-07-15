@@ -228,7 +228,7 @@ onMounted(() => {
         <h2 class="text-2xl font-bold mb-2">太棒了！恭喜完成本章练习 🎉</h2>
         <button
           @click="reset"
-          class="mt-4 bg-white text-blue-600 px-6 py-2 rounded-full font-bold hover:bg-blue-50 transition-colors"
+          class="mt-4 bg-white text-blue-600 px-6 py-2 rounded-full font-bold hover:bg-blue-50 transition-colors dark:bg-gray-700 dark:text-blue-300 dark:hover:bg-gray-600"
         >
           再练一次
         </button>

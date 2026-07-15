@@ -8,13 +8,13 @@ defineOptions({
   <div class="px-4 pt-6 2xl:px-0">
     <div class="mx-auto max-w-screen-xl">
       <!-- 页面标题 -->
-      <section class="mb-6 rounded-2xl bg-white p-6 shadow-sm" style="border: 1px solid #e8e0d5;">
-        <h1 class="mb-2 text-3xl font-bold text-gray-800">CET-6 作文</h1>
-        <p class="text-gray-500">了解六级短文写作的题型、评分标准与备考技巧</p>
+      <section class="mb-6 rounded-2xl border border-[#e8e0d5] bg-white p-6 shadow-sm dark:border-gray-700 dark:bg-gray-800">
+        <h1 class="mb-2 text-3xl font-bold text-gray-800 dark:text-white">CET-6 作文</h1>
+        <p class="text-gray-500 dark:text-gray-400">了解六级短文写作的题型、评分标准与备考技巧</p>
       </section>
 
       <!-- 短文写作 -->
-      <section class="rounded-2xl bg-white p-6 shadow-sm" style="border: 1px solid #e8e0d5;">
+      <section class="rounded-2xl border border-[#e8e0d5] bg-white p-6 shadow-sm dark:border-gray-700 dark:bg-gray-800">
         <div class="mb-4 flex items-center gap-3">
           <span class="flex h-8 w-8 items-center justify-center rounded-lg text-sm font-bold text-white" style="background-color: #C3AED6;">写</span>
           <h2 class="text-xl font-bold text-gray-800">短文写作</h2>
@@ -36,15 +36,15 @@ defineOptions({
           <h3 class="mb-2 font-semibold text-gray-700">🎯 评分标准</h3>
           <p class="mb-2 text-sm text-gray-600">从<strong>内容</strong>和<strong>语言</strong>两个方面综合评判，二者为统一体——内容通过语言来表达，语言服务于内容。</p>
           <div class="grid gap-3 sm:grid-cols-2">
-            <div class="rounded-lg bg-white/60 px-3 py-2">
-              <h4 class="mb-1 text-sm font-semibold text-gray-700">内容维度</h4>
+            <div class="rounded-lg bg-white/60 px-3 py-2 dark:bg-gray-700/60">
+              <h4 class="mb-1 text-sm font-semibold text-gray-700 dark:text-gray-200">内容维度</h4>
               <ul class="space-y-0.5 text-sm text-gray-600">
                 <li>• 是否<strong>切题</strong>，准确表达题目规定的内容</li>
                 <li>• 是否<strong>充分表达思想</strong>，观点明确、论据充实</li>
               </ul>
             </div>
-            <div class="rounded-lg bg-white/60 px-3 py-2">
-              <h4 class="mb-1 text-sm font-semibold text-gray-700">语言维度</h4>
+            <div class="rounded-lg bg-white/60 px-3 py-2 dark:bg-gray-700/60">
+              <h4 class="mb-1 text-sm font-semibold text-gray-700 dark:text-gray-200">语言维度</h4>
               <ul class="space-y-0.5 text-sm text-gray-600">
                 <li>• 能否用英语<strong>清楚而确切地</strong>表达思想</li>
                 <li>• 语言错误是否造成<strong>理解上的障碍</strong></li>

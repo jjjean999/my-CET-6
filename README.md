@@ -25,20 +25,17 @@
 - ✍️ **写作**：短文写作题型、评分标准（内容 + 语言双维度）、限时练习技巧。
 - 🌏 **翻译真题**：2020–2025 年 CET-6 汉译英真题，按中国文化 / 科技发展 / 经济发展 / 社会生活 / 历史名胜 / 地理风光等主题分类，可一键显示/隐藏参考译文。
 - 🧪 **真题模考**：写作 / 阅读 / 听力 / 选词填空 / 翻译五大题型**在线答题、即时判分**，写作与翻译提供范文/参考译文。
-- 📐 **语法**：新东方英语语法（含视频、讲义、思维导图）。
 - 💬 **评论区**：词库页接入 Giscus 评论区，可留言交流、互助答疑。
 
 > 口语模块正在规划中。
 
 ## 功能展示
 
-首页
+> 以下截图均为浅色模式；若需要深色版，可补充 `*-dark.png` 后改用 `<picture>` 标签。
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="public/screenshot/screenshot-home-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="public/screenshot/screenshot-home-light.png">
-  <img alt="Home" src="public/screenshot/screenshot-home-light.png">
-</picture>
+### 首页
+
+![首页](public/screenshot/screenshot-home-light.png)
 
 ### 词汇
 
@@ -46,65 +43,33 @@
 
 拼写自测（打字练习）模式
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="public/screenshot/typing-vocabulary-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="public/screenshot/typing-vocabulary-light.png">
-  <img alt="Vocabulary Typing" src="public/screenshot/typing-vocabulary-light.png">
-</picture>
+![词汇打字练习](public/screenshot/typing-vocabulary-light.png)
 
 词列表
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="public/screenshot/screenshot-vocabulary-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="public/screenshot/screenshot-vocabulary-light.png">
-  <img alt="Vocabulary" src="public/screenshot/screenshot-vocabulary-light.png">
-</picture>
-
-练习模式（错词本 / 释义显隐）
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="public/screenshot/screenshot-vocabulary-training-mode-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="public/screenshot/screenshot-vocabulary-training-mode-light.png">
-  <img alt="Vocabulary Training Mode" src="public/screenshot/screenshot-vocabulary-training-mode-light.png">
-</picture>
+![词汇列表](public/screenshot/screenshot-vocabulary-light.png)
 
 ### 听力（真题精听 + 考点词）
 
 真题精听：按阶段编排，配合三遍精听法逐句精听，支持按天打卡。
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="public/screenshot/screenshot-listening-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="public/screenshot/screenshot-listening-light.png">
-  <img alt="Listening" src="public/screenshot/screenshot-listening-light.png">
-</picture>
+![听力](public/screenshot/screenshot-listening-light.png)
 
 ### 阅读
 
 三步精读法、同义替换专项、长难句拆解。
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="public/screenshot/screenshot-reading-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="public/screenshot/screenshot-reading-light.png">
-  <img alt="Reading" src="public/screenshot/screenshot-reading-light.png">
-</picture>
+![阅读](public/screenshot/screenshot-reading-light.png)
 
 ### 写作
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="public/screenshot/screenshot-writing-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="public/screenshot/screenshot-writing-light.png">
-  <img alt="Writing" src="public/screenshot/screenshot-writing-light.png">
-</picture>
+![写作](public/screenshot/screenshot-writing-light.png)
 
-### 语法
+### 翻译真题
 
-新东方英语语法（含视频、讲义、思维导图）
+2020–2025 年 CET-6 汉译英真题，按中国文化 / 科技发展 / 经济发展 / 社会生活 / 历史名胜 / 地理风光等主题分类，可一键显示 / 隐藏参考译文。
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="public/screenshot/screenshot-grammar-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="public/screenshot/screenshot-grammar-light.png">
-  <img alt="Grammar" src="public/screenshot/screenshot-grammar-light.png">
-</picture>
+![翻译真题](public/screenshot/screenshot-translation-light.png)
 
 ## 技术栈
 

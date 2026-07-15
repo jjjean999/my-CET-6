@@ -46,8 +46,8 @@ const categoryColors: Record<string, string> = {
   <div class="px-4 pt-6 2xl:px-0">
     <div class="mx-auto max-w-screen-xl">
       <!-- 页面标题 -->
-      <section class="mb-6 rounded-2xl bg-white p-6 shadow-sm" style="border: 1px solid #e8e0d5;">
-        <h1 class="mb-2 text-3xl font-bold text-gray-800">CET-6 翻译练习</h1>
+      <section class="mb-6 rounded-2xl border border-[#e8e0d5] bg-white p-6 shadow-sm dark:border-gray-700 dark:bg-gray-800">
+        <h1 class="mb-2 text-3xl font-bold text-gray-800 dark:text-white">CET-6 翻译练习</h1>
         <p class="text-gray-500">2020-2025年 CET-6 汉译英真题汇编，覆盖文化、科技、经济、社会、地理等多主题。点击"显示答案"查看参考译文。</p>
       </section>
 
@@ -56,13 +56,13 @@ const categoryColors: Record<string, string> = {
         <button
           v-for="cat in categories"
           :key="cat"
-          class="rounded-xl px-4 py-2 text-sm font-medium transition-all duration-200"
+          class="rounded-xl border px-4 py-2 text-sm font-medium transition-all duration-200"
           :class="activeCategory === cat
-            ? 'text-white shadow-sm'
-            : 'bg-white text-gray-600 hover:bg-gray-50'"
+            ? 'border-transparent text-white shadow-sm'
+            : 'border-[#e8e0d5] bg-white text-gray-600 hover:bg-gray-50 dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:hover:bg-gray-600'"
           :style="activeCategory === cat
             ? { backgroundColor: categoryColors[cat] || '#7EB8DA' }
-            : { border: '1px solid #e8e0d5' }"
+            : {}"
           @click="activeCategory = cat"
         >
           {{ cat }}
@@ -72,15 +72,13 @@ const categoryColors: Record<string, string> = {
       <!-- 批量操作 -->
       <div class="mb-4 flex gap-3">
         <button
-          class="rounded-lg px-4 py-1.5 text-sm text-gray-500 transition hover:text-gray-700"
-          style="border: 1px solid #e8e0d5; background: #fff;"
+          class="rounded-lg border border-[#e8e0d5] bg-white px-4 py-1.5 text-sm text-gray-500 transition hover:text-gray-700 dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:hover:bg-gray-600"
           @click="revealAll"
         >
           全部显示答案
         </button>
         <button
-          class="rounded-lg px-4 py-1.5 text-sm text-gray-500 transition hover:text-gray-700"
-          style="border: 1px solid #e8e0d5; background: #fff;"
+          class="rounded-lg border border-[#e8e0d5] bg-white px-4 py-1.5 text-sm text-gray-500 transition hover:text-gray-700 dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:hover:bg-gray-600"
           @click="hideAll"
         >
           全部隐藏答案
@@ -92,8 +90,7 @@ const categoryColors: Record<string, string> = {
         <div
           v-for="item in filteredData"
           :key="item.id"
-          class="rounded-2xl bg-white p-5 shadow-sm transition-all duration-300"
-          style="border: 1px solid #e8e0d5;"
+          class="rounded-2xl border border-[#e8e0d5] bg-white p-5 shadow-sm transition-all duration-300 dark:border-gray-700 dark:bg-gray-800"
         >
           <div class="mb-3 flex items-start gap-3">
             <span
@@ -105,12 +102,12 @@ const categoryColors: Record<string, string> = {
               <p v-if="item.hint" class="mt-1 text-xs text-gray-400">💡 {{ item.hint }}</p>
             </div>
             <button
-              class="shrink-0 rounded-lg px-3 py-1.5 text-sm transition-all duration-200"
+              class="shrink-0 rounded-lg border px-3 py-1.5 text-sm transition-all duration-200"
               :class="revealedMap[item.id]
-                ? 'text-gray-500 hover:text-gray-700'
-                : 'text-white shadow-sm'"
+                ? 'border-[#e8e0d5] bg-white text-gray-500 hover:text-gray-700 dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:hover:bg-gray-600'
+                : 'border-transparent text-white shadow-sm'"
               :style="revealedMap[item.id]
-                ? { border: '1px solid #e8e0d5', background: '#fff' }
+                ? {}
                 : { backgroundColor: categoryColors[item.category] || '#7EB8DA' }"
               @click="toggleReveal(item.id)"
             >
